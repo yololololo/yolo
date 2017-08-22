@@ -1,0 +1,39 @@
+ div.page{
+ 	text-align: center;
+ }
+div.page a{
+	border:gray solid 1px;
+	text-decoration: none;
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	color:black;
+}
+div.page span.current{
+	border:gray 1px solid ;
+	background-color:#4C4C4C;
+	padding:4px 6px 4px 6px;
+	margin:2px;
+	color:#fff;
+}
+
+div.page form{
+	display:inline;
+}
+
+table th,td{
+	font-size: 15px;
+    line-height: 25px;
+    padding-left: 8px;
+    text-align: center;
+}
+
+table tr:nth-child(odd){
+background: #ccc;
+}
+/*最后一行加上样式：*/
+table tr:last-child{
+background:white;
+}
+table tr:nth-of-type(1){
+background: #DFEBF7;
+}
